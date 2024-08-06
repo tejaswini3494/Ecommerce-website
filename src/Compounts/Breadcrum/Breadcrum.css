@@ -1,0 +1,7 @@
+.breadcrum{
+    display: flex;
+    color: rgba(45, 45, 11, 0.979);
+    padding: 20px 10px;
+    font-size: 16px;
+   
+}

@@ -1,0 +1,125 @@
+.summer-container {
+    display: flex;
+    align-items: center;
+  
+    gap: 5rem;
+    background-color: #a8b19ab7;
+    padding: 30px 0;
+  
+    justify-content: center;
+  }
+  .summer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .summer-left h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .summer-left h3 {
+    font-size: 4rem;
+    
+    font-weight: 500;
+    font-family: "Courier New", Courier, monospace;
+    color: rgba(0, 0, 0, 0.824);
+  }
+  .summer-left p {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: cursive;
+  
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  
+  .summer-right img {
+    width: 25rem;
+    object-fit: contain;
+    border: 5px solid whitesmoke;
+  }
+  .summer-right :nth-child(2) {
+    width: 10rem;
+    object-fit: contain;
+    border:4px solid whitesmoke;
+    margin: -20px;
+  }
+  
+  @media (max-width: 1225px) {
+    .summer-container h2 ,h3{
+      font-size: 3rem;
+      
+     
+    }
+    .summer-container p {
+      font-size: 0.9rem;
+    font-weight: 500;
+    }
+    .summer-right img {
+      width: 20rem;
+    }
+    .summer-right :nth-child(2) {
+        width: 8rem;
+        
+      }
+  }
+  @media (max-width: 884px) {
+    .summer-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5rem;
+    }
+    .summer-left {
+      align-items: center;
+    }
+  
+    .summer-container h2 ,h3{
+     
+      text-align: center;
+    }
+    .summer-container p {
+      text-align: center;
+    }
+    .summer-right img {
+      width: 20rem;
+    }
+  }
+  @media (max-width: 624px) {
+    .summer-container h2 {
+      font-size: 2.3rem;
+      /* line-height: 3rem; */
+    }
+    .summer-container h3{
+      font-size: 2.8rem;
+      /* line-height: 3rem; */
+    }
+  
+    .summer-right img {
+      width: 16rem;
+    }
+    .summer-right :nth-child(2) {
+        width: 6rem;
+        
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .summer-container h2 {
+      font-size: 2rem;
+      /* line-height: 3rem; */
+      font-weight: 600;
+    }
+    .summer-container h3{
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    .summer-right img {
+      width: 14rem;
+    }
+    .summer-right :nth-child(2) {
+        width: 5rem;
+        
+      }
+  }

@@ -1,0 +1,124 @@
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: center; */
+ gap: 10rem;
+ background-color: #bcafdcc0;
+ 
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+ 
+ 
+}
+.subscribe h6 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.subscribe p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.564);
+}
+.subscribe input {
+  margin-bottom: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid rgb(124, 124, 164);
+  padding: 10px 20px;
+
+  width: 60%;
+}
+.subscribe .btn {
+  border: 2px solid rgb(124, 124, 164);
+  padding: 10px 20px;
+
+  font-size: 16px;
+  background-color: #9583c5c0;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+.subscribe-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(178, 160, 196);
+}
+
+.subscribe-img img {
+  width: 500px;
+  object-fit: contain;
+}
+
+@media (max-width: 1225px) {
+  .subscribe h6 {
+    font-size: 30px;
+  }
+  .subscribe p {
+    font-size: 16px;
+  }
+
+  .subscribe-img img {
+    width: 450px;
+  }
+}
+@media (max-width: 980px) {
+  .subscribe h6 {
+    font-size: 25px;
+  }
+  .subscribe .btn,
+  .subscribe input {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .subscribe-img img {
+    width: 400px;
+  }
+}
+@media (max-width: 884px) {
+  .subscribe-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 20px 0;
+  }
+  .subscribe {
+   
+    width: 100%;
+   
+   
+  }
+  .subscribe h6 {
+    text-align: center;
+  }
+  .subscribe p {
+    text-align: center;
+  }
+
+  .subscribe-img img {
+    width: 300px;
+  }
+}
+@media (max-width: 684px) {
+  .subscribe-img img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe .btn,
+  .subscribe input {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+  .subscribe-img img {
+    width: 200px;
+  }
+}
