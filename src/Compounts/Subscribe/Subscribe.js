@@ -1,5 +1,7 @@
 import React from "react";
 import "./Subscribe.css";
+import girlflower from "../Image/girls-flower.jpg"
+
 
 export default function Subscribe() {
   return (
@@ -14,7 +16,7 @@ export default function Subscribe() {
       </div>
 
       <div className="subscribe-img">
-        <img src="Image/girls-flower.jpg" />
+        <img src={girlflower}/>
       </div>
     </div>
   );

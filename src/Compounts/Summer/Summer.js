@@ -1,5 +1,7 @@
 import React from "react";
 import "./Summer.css"
+import summberimg1 from "../Image/brand.jpg"
+import summberimg2 from "../Image/223.jpg"
 export default function Summer() {
   return (
     <div className="summer-container container">
@@ -13,8 +15,8 @@ export default function Summer() {
         <button className="btn">Shop Now</button>
       </div>
       <div className="summer-right">
-        <img src="Image/brand.jpg" />
-        <img src="Image/223.jpg" />
+        <img src={summberimg1}/>
+        <img src={summberimg2}/>
       </div>
     </div>
   );

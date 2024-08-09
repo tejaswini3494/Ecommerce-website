@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Footer.css"
+import instagram from "../Image/instagram.jpg"
+import twitter from "../Image/twitter.jpg"
+import whatsapp from "../Image/whatsapp.jpg"
+
 export default function Footer() {
   return (
     <>
@@ -17,13 +21,13 @@ export default function Footer() {
 
       <div className='footer-social-icons'>
         <div className='Instagram footer-icon'>
-            <img src="/Image/instagram.jpg"/>
+            <img src={instagram}/>
             </div>       
         <div className='whatsapp footer-icon'>
-        <img src="/Image/whatsapp2.jpg"/>
+        <img src={whatsapp}/>
             </div>       
         <div className='twitter footer-icon'>
-        <img src="/Image/twitter3.jpg"/>
+        <img src={twitter}/>
             </div>       
       </div>
 

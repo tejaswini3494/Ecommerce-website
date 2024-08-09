@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
 import { Link } from 'react-router-dom'
+import cart from "../Image/cart9.jpg"
 
 export default function Navbar() {
   const [menuopen, setMenuOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function Navbar() {
       <div className='nav-login'>
         
        <Link to="/login"><button  className='btn'>Login</button></Link> 
-       <Link to="/cart"><img src="\Image\cart9.jpg" alt='cart'/></Link>
+       <Link to="/cart"><img src={cart} alt='cart'/></Link>
         <div className='nav-cart-count'>0</div>
         
        

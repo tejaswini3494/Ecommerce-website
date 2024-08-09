@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css"
+import homeimg from "../Image/home.jpg"
 export default function Home() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Home() {
           <button className="btn">Shop Now</button>
         </div>
         <div className="home-right">
-          <img src="Image/home.jpg" />
+          <img src={homeimg} />
           
           
           
