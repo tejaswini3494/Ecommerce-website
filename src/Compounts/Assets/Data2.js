@@ -32,12 +32,12 @@ const Data2= [
   },
   
   {
-    id: 25,
+    id: 24,
     name: "Women Regular Fit Striped Mandarin Collar Casual Shirt",
     img: p3,
     price:253,
     odlPrice:1563,
-      category:"kid"
+      category:"Women"
 
   },
   {
