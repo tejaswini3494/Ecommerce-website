@@ -244,15 +244,15 @@ const allProduct= [
       category:"women"
 
   },
-  {
-    id: 25,
-    name: "Women Regular Fit Striped Mandarin Collar Casual Shirt",
-    img: p24,
-    price:253,
-    oldPrice:1563,
-      category:"kid"
+  // {
+  //   id: 25,
+  //   name: "Women Regular Fit Striped Mandarin Collar Casual Shirt",
+  //   img: p24,
+  //   price:253,
+  //   oldPrice:1563,
+  //     category:"kid"
 
-  },
+  // },
 
 
  
