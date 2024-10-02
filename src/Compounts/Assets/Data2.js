@@ -1,6 +1,6 @@
 import p1 from "../Image/m_p9.webp"
 import p2 from "../Image/m_p2.webp"
-import p3 from "../Image/w_p12.webp"
+// import p3 from "../Image/w_p12.webp"
 import p4 from "../Image/m_p4.webp"
 import p5 from "../Image/m_p4.webp"
 import p6 from "../Image/w_p2.webp"
@@ -31,15 +31,15 @@ const Data2= [
     category:"men"
   },
   
-  {
-    id: 25,
-    name: "Women Regular Fit Striped Mandarin Collar Casual Shirt",
-    img: p3,
-    price:253,
-    odlPrice:1563,
-      category:"kid"
+  // {
+  //   id: 25,
+  //   name: "Women Regular Fit Striped Mandarin Collar Casual Shirt",
+  //   img: p3,
+  //   price:253,
+  //   odlPrice:1563,
+  //     category:"kid"
 
-  },
+  // },
   {
     id: 3,
     name: "Men Slim Fit Solid Spread Collar Formal Shirt",
